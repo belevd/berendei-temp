@@ -1,0 +1,143 @@
+.header-info {
+    font-weight: bold;
+}
+
+.logo-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+}
+
+.logo-link:hover {
+    text-decoration: none;
+    color: seagreen;
+}
+
+.logo-img {
+    padding: 10px;
+}
+
+.header-contacts {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-phones {
+    display: flex;
+    justify-content: space-between;
+    min-width: 190px;
+}
+
+.header-phones-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.header-link {
+    color: black;
+}
+
+.header-link:hover {
+    text-decoration: none;
+    color: seagreen;
+}
+
+.header-location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-languages {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.russian {
+    position: relative;
+}
+
+.russian::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 3px;
+    background: url(../img/icons/ru.png) center/cover no-repeat;
+    width: 24px;
+    height: 20px;
+}
+
+.english {
+    position: relative;
+}
+
+.english::before {
+    content: "";
+    position: absolute;
+    left: -35px;
+    top: 3px;
+    background: url(../img/icons/uk.png) center/cover no-repeat;
+    width: 24px;
+    height: 20px;
+}
+nav {
+    background-color: darkgreen;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu > li {
+    display: flex;
+    align-items: stretch;
+    min-height: 50px;
+    justify-content: center;
+}
+
+.menu-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.menu-link:hover {
+    color: white;
+    text-decoration: none;
+    background-color: seagreen;
+}
+
+.main-info {
+    padding: 50px 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.advantages-list {
+    list-style: none;
+}
+
+.advantages-list li::before {
+    content: '\2014  ';
+}
